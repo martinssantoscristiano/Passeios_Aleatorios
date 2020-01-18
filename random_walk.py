@@ -13,7 +13,7 @@ class RandomWalk():
     def fill_walk(self):
         """Calcula todos os pontos do passeio."""
                     
-        # Continua dando passos até que o passeio alcance o tamanho desejado
+        # Continua dando passos até que o passeio alcance o tamanho desejado.
         while len(self.x_values) < self.num_points:
                     
         # Decide a diretion a ser seguida e distance a ser percorrida
@@ -34,4 +34,4 @@ class RandomWalk():
                                 
         # Todos os passeios começam em (0, 0)
             self.x_values.append(next_x)
-            self.y_values.append(next_y)            
+            self.y_values.append(next_y)
